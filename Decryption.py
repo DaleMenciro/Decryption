@@ -21,8 +21,9 @@ def decrypt_data(encrypted_data):
 
 
 #Asks the user to input the encrypted data
+print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50)
 encrypted_data= input(Style.BRIGHT + Fore.MAGENTA + "Kindly enter your encrypted data: ")
-
+print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50, end= "\n ")
 #Calling the def function to decrypt the user's input
 decrypted_data= decrypt_data(encrypted_data)
 
