@@ -6,6 +6,6 @@
 - Program will decrypt it using the following character substitute: 'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !
 
 ## Module Requirements:
-### (Click the name for the installation)
+### (Click the name for install instructions)
 - [Colorama](https://pypi.org/project/colorama/)
 - [tqdm](https://pypi.org/project/tqdm/)
