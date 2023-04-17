@@ -36,4 +36,9 @@ import time
 #Calling the def function to decrypt the user's input
 decrypted_data= decrypt_data(encrypted_data)
 
+print("The Program is Decrypting your data.....")
+for i in tqdm(range(10)):
+    time.sleep(0.5)
+print(Fore.CYAN + "Done!\n\n" + Style.RESET_ALL)
+
 #Print the decrypted text
