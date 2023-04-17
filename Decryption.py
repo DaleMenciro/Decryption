@@ -21,6 +21,7 @@ def decrypt_data(encrypted_data):
 
 
 #Asks the user to input the encrypted data
+encrypted_data= input(Style.BRIGHT + Fore.MAGENTA + "Kindly enter your encrypted data: ")
 
 #Calling the def function to decrypt the user's input
 decrypted_data= decrypt_data(encrypted_data)
