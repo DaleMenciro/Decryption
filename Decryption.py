@@ -44,3 +44,4 @@ for i in tqdm(range(10)):
 print(Fore.CYAN + "Done!\n\n" + Style.RESET_ALL)
 
 #Print the decrypted text
+print(Style.RESET_ALL + "Your Decrypted Text is:", decrypted_data )
