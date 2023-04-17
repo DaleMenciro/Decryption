@@ -14,6 +14,7 @@ def decrypt_data(encrypted_data):
     #if it has "#", change to "i"
     decrypted_data= decrypted_data.replace("#",Fore.MAGENTA +"i"+ Style.RESET_ALL)
     #if it has "+", change to "o"
+    decrypted_data= decrypted_data.replace("+",Fore.RED +"o"+ Style.RESET_ALL)
     #if it has "!", change to "u"
 
 #Asks the user to input the encrypted data
