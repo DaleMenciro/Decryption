@@ -3,6 +3,9 @@ import colorama
 from colorama import Fore,Style
 
 #Code Starts
+print(Style.BRIGHT + Fore.CYAN + u"\u2500" * 50 )
+print(Fore.BLACK + Style.RESET_ALL + "Welcome to Problem 2".center(50," "))
+print(Style.BRIGHT + Fore.CYAN + u"\u2500" * 50, end="\n\n" )
 
 
 #Def function for the conditions in decrypting
