@@ -29,6 +29,10 @@ encrypted_data= input(Style.BRIGHT + Fore.MAGENTA + "Kindly enter your encrypted
 print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50, end= "\n ")
 print(Fore.GREEN + Style.NORMAL + "You entered:",encrypted_data)
 print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50 + Style.RESET_ALL, end= "\n ")
+
+from tqdm import tqdm
+import time
+
 #Calling the def function to decrypt the user's input
 decrypted_data= decrypt_data(encrypted_data)
 
