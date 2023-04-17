@@ -1,6 +1,7 @@
 #Code Starts
 
 #Def function for the conditions in decrypting
+def decrypt_data(encrypted_data):
     #if it has "*", change to "a"
     #if it has "&", change to "e"
     #if it has "#", change to "i"
