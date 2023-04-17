@@ -1,4 +1,9 @@
+
+import colorama
+from colorama import Fore,Style
+
 #Code Starts
+
 
 #Def function for the conditions in decrypting
 def decrypt_data(encrypted_data):
