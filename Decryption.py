@@ -32,6 +32,8 @@ print(Fore.GREEN + Style.NORMAL + "You entered:",encrypted_data)
 print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50 + Style.RESET_ALL, end= "\n ")
 time.sleep (0.5)
 
+print(Style.NORMAL + Fore.YELLOW + u"\u2500" * 50,end="\n\n")
+
 from tqdm import tqdm
 import time
 
@@ -44,4 +46,6 @@ for i in tqdm(range(10)):
 print(Fore.CYAN + "Done!\n\n" + Style.RESET_ALL)
 
 #Print the decrypted text
+print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50)
 print(Style.RESET_ALL + "Your Decrypted Text is:", decrypted_data )
+print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50)
