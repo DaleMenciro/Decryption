@@ -6,7 +6,8 @@ from colorama import Fore,Style
 print(Style.BRIGHT + Fore.CYAN + u"\u2500" * 50 )
 print(Fore.BLACK + Style.RESET_ALL + "Welcome to Problem 2".center(50," "))
 print(Style.BRIGHT + Fore.CYAN + u"\u2500" * 50, end="\n\n" )
-
+import time
+time.sleep(1)
 
 #Def function for the conditions in decrypting
 def decrypt_data(encrypted_data):
@@ -29,6 +30,7 @@ encrypted_data= input(Style.BRIGHT + Fore.MAGENTA + "Kindly enter your encrypted
 print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50, end= "\n ")
 print(Fore.GREEN + Style.NORMAL + "You entered:",encrypted_data)
 print(Style.DIM + Fore.LIGHTGREEN_EX + u"\u2500" * 50 + Style.RESET_ALL, end= "\n ")
+time.sleep (0.5)
 
 from tqdm import tqdm
 import time
